@@ -1,19 +1,27 @@
-package baseURL;
+import org.json.JSONObject;
 
-import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.specification.RequestSpecification;
-import org.junit.Before;
+public class TestDataJsonPlaceHolder {
 
-public class JsonPlaceHolderBaseUrl {
+    public int basariliStatusCode = 200;
+    public String contentType = "application/json; charset=utf-8";
+    public String connectionHeaderDegeri = "keep-alive";
 
-    protected RequestSpecification specJsonPlace;
+    public JSONObject expectedBodyOlusturJSON() {
 
-    @Before
-    public void setUp(){
+        public JSONObject expectedBodyOlusturJSON () {
+            return expBodyJson;
+        }
 
-        specJsonPlace = new RequestSpecBuilder().
-                setBaseUri("https://jsonplaceholder.typicode.com").
-                build();
+        public JSONObject requestBodyOlusturJSON () {
+
+            JSONObject reqBodyJson = new JSONObject();
+
+            reqBodyJson.put("userId", 10);
+            reqBodyJson.put("id", 70);
+            reqBodyJson.put("title", "Ali");
+            reqBodyJson.put("body", "Merhaba");
+
+            return reqBodyJson;
+        }
     }
-
 }

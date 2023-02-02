@@ -94,12 +94,30 @@ public class C17_BaseUrlHerokuappQueryParam extends HerokuappBaseUrl {
                 statusCode(200).
                 body("fırstname",hasSize(1));
 
-
-
-
     }
     @Test
     public void get03(){
+         /*
+        3- https://restful-booker.herokuapp.com/booking endpointine gerekli Query
+         parametrelerini yazarak “firstname” degeri “Jim” ve “lastname” degeri
+         “Jackson” olan rezervasyon oldugunu test edecek bir GET request gonderdigimizde,
+         donen response’un status code’unun 200 oldugunu ve “Jim Jackson” ismine sahip
+         en az bir booking oldugunu test edin.
+    */
+        specHerokuapp.pathParam("pp1","booking").
+                queryParams("firstname","Jim","lastname","Jackson");
+
+        // 3- Response'ı katdet
+
+        Response response = given().spec(specHerokuapp).when().get("/{pp1}");
+
+        response.prettyPrint();
+
+        // Assertion
+
+        response.then().assertThat().statusCode(200).body("bookingid",hasSize(1));
+
+
 
     }
 
