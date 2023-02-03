@@ -55,7 +55,7 @@ public class C23_Get_DeSerialization extends DummyBaseURL {
         // 4 - Assertion
 
         Assert.assertEquals(testDataDummy.basariliStatusCode,response.getStatusCode());
-        Assert.assertEquals(testDataDummy.contentType,response.getContentType());
+        Assert.assertEquals(testDataDummy.contenType,response.getContentType());
 
         // Not : Bizim hazirlamis oldugumuz Expected Data Map formatinda.
         // Bize response'dan donen Response Body ise Json formatinda

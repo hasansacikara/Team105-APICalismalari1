@@ -8,9 +8,9 @@ import java.util.Map;
 public class TestDataJsonPlaceHolder {
 
     public int basariliStatusCode = 200;
-  public JSONObject requestBodyOlusturJSON (){
+    public JSONObject requestBodyOlusturJSON (){
 
-        return reqBodyJson;
+        return requestBodyOlusturJSON();
     }
 
 

@@ -37,7 +37,7 @@ public class C18_Get_TestDataClassKullanimi extends JsonPlaceHolderBaseUrl {
 
         TestDataJsonPlaceHolder testDataJsonPlaceHolder = new TestDataJsonPlaceHolder();
 
-        JSONObject expData = testDataJsonPlaceHolder.expectedBodyOlusturJSON();
+        JSONObject expData = testDataJsonPlaceHolder.expectedBodyOlusturJson();
 
         // 3 - Response'i kaydet
 

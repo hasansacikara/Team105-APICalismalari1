@@ -4,14 +4,16 @@ import baseURL.JsonPlaceHolderBaseUrl;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
 import org.json.JSONObject;
 import org.junit.Test;
+import testData.TestDataDummy;
 import testData.TestDataJsonPlaceHolder;
 
 import static io.restassured.RestAssured.given;
 import static junit.framework.Assert.assertEquals;
 
-public class C19_Put_TestDataClassKullanimi extends JsonPlaceHolderBaseUrl {
+public class C19_Put_TestDataClassKullanimi extends TestDataJsonPlaceHolder {
     /*
     https://jsonplaceholder.typicode.com/posts/70 url'ine asagidaki body’e sahip bir PUT
     request yolladigimizda donen response’in
