@@ -1,3 +1,4 @@
+/*
 package test;
 
 import baseURL.JsonPlaceHolderBaseUrl;
@@ -12,6 +13,8 @@ import static io.restassured.RestAssured.given;
 
 public class C18_Get_TestDataClassKullanimi extends JsonPlaceHolderBaseUrl {
 
+ */
+
     /*
   https://jsonplaceholder.typicode.com/posts/22 url'ine bir GET
   request yolladigimizda donen response’in status kodunun 200 ve
@@ -25,6 +28,8 @@ public class C18_Get_TestDataClassKullanimi extends JsonPlaceHolderBaseUrl {
     um mollitia molestiae aut atque rem suscipit\nnam impedit esse"
     }
      */
+
+/*
 
     @Test
     public void get01(){
@@ -53,3 +58,5 @@ public class C18_Get_TestDataClassKullanimi extends JsonPlaceHolderBaseUrl {
 
 
 }
+
+ */

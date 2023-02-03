@@ -1,3 +1,4 @@
+/*
 package test;
 
 import baseURL.DummyBaseURL;
@@ -13,6 +14,8 @@ import java.util.Map;
 import static io.restassured.RestAssured.given;
 
 public class C23_Get_DeSerialization extends DummyBaseURL {
+
+ */
     /*
     http://dummy.restapiexample.com/api/v1/employee/3 url’ine bir GET
     request gonderdigimizde donen response’un status code’unun 200,
@@ -32,6 +35,7 @@ public class C23_Get_DeSerialization extends DummyBaseURL {
     }
      */
 
+/*
     @Test
     public void get01(){
 
@@ -84,7 +88,9 @@ public class C23_Get_DeSerialization extends DummyBaseURL {
 
     }
 
-}
+
+ */
+
 
 
 

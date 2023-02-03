@@ -1,3 +1,4 @@
+/*
 package testData;
 
 import org.json.JSONObject;
@@ -14,7 +15,7 @@ public class TestDataDummy {
     /*
     {
     "status":"success",
-@@ -40,5 +45,27 @@ public JSONObject expectedBodyOlusturJson (){
+ public JSONObject expectedBodyOlusturJson (){
 
         return expBody;
     }
@@ -42,3 +43,5 @@ public class TestDataDummy {
         return expBody;
     }
 }
+
+ */

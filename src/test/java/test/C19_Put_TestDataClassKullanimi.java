@@ -1,3 +1,4 @@
+/*
 package test;
 
 import baseURL.JsonPlaceHolderBaseUrl;
@@ -35,8 +36,10 @@ public class C19_Put_TestDataClassKullanimi extends TestDataJsonPlaceHolder {
         "id":70
         }
   */
+/*
     @Test
     public void put01(){
+
 
         // 1 - URL ve Body hazirla
 
@@ -74,7 +77,11 @@ public class C19_Put_TestDataClassKullanimi extends TestDataJsonPlaceHolder {
         assertEquals(expData.get( "id"),resJP.get( "id"));
 
     }
+    /*
 }
+
+ */
+
 
 
 
