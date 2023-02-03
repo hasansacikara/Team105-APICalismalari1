@@ -40,6 +40,7 @@ public class C19_Put_TestDataClassKullanimi extends TestDataJsonPlaceHolder {
 
         // 1 - URL ve Body hazirla
 
+
         specJsonPlace.pathParams("pp1","posts","pp2",70);
 
         TestDataJsonPlaceHolder testDataJsonPlaceHolder = new TestDataJsonPlaceHolder();
@@ -74,3 +75,6 @@ public class C19_Put_TestDataClassKullanimi extends TestDataJsonPlaceHolder {
 
     }
 }
+
+
+
